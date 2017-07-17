@@ -10,13 +10,15 @@ import { MyCounter2Component } from './my-counter-2/my-counter-2.component';
 import { CounterService } from './counter.service';
 import { JokesService } from './jokes.service';
 import { JokesComponent } from './jokes/jokes.component';
+import { BothCountersComponent } from './both-counters/both-counters.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MyCounterComponent,
     MyCounter2Component,
-    JokesComponent
+    JokesComponent,
+    BothCountersComponent
   ],
   imports: [
     BrowserModule,

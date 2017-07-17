@@ -3,13 +3,14 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { AppComponent } from "./app.component";
 import { JokesComponent } from "./jokes/jokes.component";
+import { BothCountersComponent} from "./both-counters/both-counters.component";
 
 
 // we set all paths to point to AppComponent
 const routes: Routes = [
   {
-    path: '',
-    component: AppComponent
+    path: 'counter',
+    component: BothCountersComponent
   },
   {
     path: "jokes",

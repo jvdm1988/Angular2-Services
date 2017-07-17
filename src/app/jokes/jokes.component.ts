@@ -4,7 +4,7 @@ import { JokesService } from '../jokes.service';
 
 @Component({
   selector: 'jokes',
-  templateUrl: "./jokes/component.html",
+  templateUrl: "../jokes/jokes.component.html",
   providers: [JokesService]
 })
 export class JokesComponent implements OnInit {
